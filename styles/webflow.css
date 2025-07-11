@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+.secondary-bgn{
+    background-color: rgba(194, 192, 238, 0.1);
+}
+
 /* header */
 .header{
     background-image: url('../images/Hero-bg.png');
@@ -129,3 +133,71 @@
     margin-top: 0px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* user review section */
+.user-review-section{
+    margin: 140px 150px;
+    max-height: 350px;
+}
+
+.user-review-section-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.user-reviews{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.user-review{
+    width: 500px;
+    max-height: 230px;
+    border-radius: 14px;
+    padding: 28px 20px;
+    background-color: white;
+}
+
+.review-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.review-details{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.reviewer-details{
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.reviewer-image{
+    width: 12%;
+    height: 12%;
+    border-radius: 50%;
+}
+
+.reviewer-name{
+    font-size: 14px;
+    font-weight: 500;
+    color: #1E1E1E;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.review-date{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #1E1E1E;
+}
+
