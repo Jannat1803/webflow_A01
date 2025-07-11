@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/webflow.css">
 </head>
-<body class="raleway-normal secondary-bgn">
+<body class="raleway-normal">
     <header class="header">
         <nav class="nav-style">
             <h3 class="inter-normal nav-logo">LOGO</h3>
@@ -20,7 +20,7 @@
             <button class="btn btn-style">Stay Focused</button>
         </div>
     </header>
-    <main>
+    <main class="secondary-bgn">
         <section class="action-section">
             <div class="action">
                 <div class="action-content">
@@ -106,9 +106,35 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
 
+        <section class="form-section">
+            <div class="form-section-column">
+                <h1 class="form-title">Let’s Get in Touch</h1>
+            </div>
+            <div class="form-section-column">
+                <div class="form-details">
+                    <form action="" class="inter-normal">
+                        <label  for="email">Email</label>
+                        <input type="email" name="" id="email" placeholder="example@email.com">
+                        <label for="name">Name</label>
+                        <input type="text" name="" id="name" placeholder="full name">
+                        <label for="message">Message</label>
+                        <textarea name="" id="" cols="30" rows="5" placeholder="write your message..."></textarea>
+                    </form>
+                    <input class="form-btn btn" type="button" value="Get in Touch">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-columns inter-normal">
+        <h1 class="footer-logo">LOGO</h1>
+        <p class="footer-details">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+        <nav class="footer-links">
+            <a href="https://home.com/" class="footer-link">Home</a>
+            <a href="https://about.com/" class="footer-link">About</a>
+            <a href="https://work.com/" class="footer-link">How it Works</a>
+            <a href="https://services.com/" class="footer-link">Services</a>
+        </nav>
     </footer>
 </body>
 </html>
